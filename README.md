@@ -1,16 +1,15 @@
 # dog_app
 
-A new Flutter project.
 
-## Getting Started
+| Özellikler| Açıklama | PATH
+| :-------- | :-------- | :-------- 
+| `Image Cache` | `Görsel cache işlemi için harici paket kullanılmadı, maksimum önbellek mevcut` | `lib/utils/image_cache_manager.dart`
+| `Custom Bottom Bar` |`Bottom bar tasarım hatlarına uygun`|`lib/presentation/pages/primary/primary.dart`|
+| `Search Textfield` |`Aktif Filtreleme`|`lib/presentation/widgets/custom_bottom_sheet.dart`|
+| `OsVersion` |`Android/IOS`|``|
+| `BLoc` |`Bloc kurallarına uygun`|``|
+| `Icons` |`Uygulama ikonları için .ttf asset oluşturuldu`|``|
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+https://github.com/akcadev/Dog_App/assets/10177802/2539e2b0-f142-4092-82a2-14226874083a
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
