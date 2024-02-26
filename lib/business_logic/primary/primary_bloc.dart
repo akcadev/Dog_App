@@ -1,5 +1,4 @@
-import 'package:dog_app/bloc/primary/primary_event.dart';
-import 'package:dog_app/bloc/primary/primary_state.dart';
+import 'package:dog_app/business_logic/index.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class PrimaryBloc extends Bloc<PrimaryEvent, PrimaryState> {
@@ -15,4 +14,5 @@ class PrimaryBloc extends Bloc<PrimaryEvent, PrimaryState> {
   void setBottomSheet(BottomSheetEvent event, emit) {
     emit(state.copyWith(bottomSheetIsopen: event.bottomSheetIsopen));
   }
+
 }

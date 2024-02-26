@@ -1,5 +1,5 @@
-import 'package:dog_app/features/primary.dart';
-import 'package:dog_app/features/splash.dart';
+import 'package:dog_app/presentation/pages/primary/primary.dart';
+import 'package:dog_app/presentation/splash.dart';
 import 'package:flutter/cupertino.dart';
 
 class Routes {

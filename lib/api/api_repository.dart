@@ -7,7 +7,7 @@ class ApiRepository {
   ApiProvider apiProvider = ApiProvider();
 
   Future<BreedsList?> fetchBreeds() async {
-    final res = await apiProvider.fetchData('breeds/list');
+    final res = await apiProvider.fetchData('breeds/list/all');
     return BreedsList.fromJson(res.data);
   }
 
@@ -23,9 +23,9 @@ class ApiRepository {
   }
 
   Future<ImageResponse?> fetchSubBreedImage(
-      String breedName, String subBreedName) async {
+      String breedName) async {
     final res = await apiProvider
-        .fetchData('breed/$breedName/$subBreedName/images/random');
+        .fetchData('breed/$breedName/images/random');
     return ImageResponse.fromJson(res.data);
   }
 }

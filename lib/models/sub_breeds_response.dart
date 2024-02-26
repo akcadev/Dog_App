@@ -14,7 +14,7 @@ class SubBreeds {
         String? status,
     }) => 
         SubBreeds(
-            subBreeds: message ?? this.subBreeds,
+            subBreeds: message ?? subBreeds,
             status: status ?? this.status,
         );
 
